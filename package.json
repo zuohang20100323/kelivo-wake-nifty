@@ -2,9 +2,10 @@
   "name": "kelivo-wake-nifty",
   "version": "1.0.0",
   "description": "Kelivo AI伴侣常驻插件 - ntfy推送版",
-  "main": "server.js",
+  "main": "railway_start.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node railway_start.js",
+    "start:railway": "node railway_start.js",
     "wake": "node wake_up.js"
   },
   "keywords": ["kelivo", "ntfy", "wake-up", "ai-companion"],
@@ -15,8 +16,9 @@
     "node": ">=20"
   },
   "dependencies": {
-    "dotenv": "^16.3.1",
-    "fastify": "^4.25.0",
-    "fs-extra": "^11.2.0"
+    "@fastify/formbody": "^8.0.2",
+    "dotenv": "^17.4.2",
+    "fastify": "^5.3.3",
+    "fs-extra": "^11.3.5"
   }
 }
