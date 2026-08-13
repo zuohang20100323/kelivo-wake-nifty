@@ -1,0 +1,7 @@
+node_modules/
+.env
+enhanced_messages.json
+message_timestamps.json
+presets.json
+diary/
+*.log
