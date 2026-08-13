@@ -1,0 +1,22 @@
+{
+  "name": "kelivo-wake-nifty",
+  "version": "1.0.0",
+  "description": "Kelivo AI伴侣常驻插件 - ntfy推送版",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "wake": "node wake_up.js"
+  },
+  "keywords": ["kelivo", "ntfy", "wake-up", "ai-companion"],
+  "author": "zuohang20100323",
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "fastify": "^4.25.0",
+    "fs-extra": "^11.2.0"
+  }
+}
